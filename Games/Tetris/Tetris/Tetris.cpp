@@ -25,3 +25,29 @@ void Tetris::InitWindow()
   ui.BG_Label->setGeometry(0, 0, bG.size().width(), bG.size().height());
   ui.BG_Label->setPixmap(bG);
 }
+
+void Tetris::keyPressEvent(QKeyEvent* event)
+{
+  switch (event->key())
+  {
+    case Qt::Key_R:
+    {
+      //清除字体
+      ui.label->clear();
+      ui.label_2->clear();
+
+      //关闭label
+      ui.label->close();
+      ui.label_2->close();
+      break;
+    }
+    case Qt::Key_E:
+    {
+      //退出程序
+      this->close();
+      break;
+    }
+    default:
+      break;
+  }
+}

@@ -1,6 +1,7 @@
 #pragma once
 
 #include <QIcon>
+#include <QKeyEvent>
 #include <QPixmap>
 #include <QtWidgets/QMainWindow>
 #include "ui_Tetris.h"
@@ -19,4 +20,7 @@ private:
 private:
   //初始化窗口
   void InitWindow();
+
+  //开始游戏
+  void keyPressEvent(QKeyEvent* event);
 };
