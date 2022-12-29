@@ -1,5 +1,7 @@
 #pragma once
 
+#include <QIcon>
+#include <QPixmap>
 #include <QtWidgets/QMainWindow>
 #include "ui_Tetris.h"
 
@@ -13,4 +15,8 @@ public:
 
 private:
     Ui::TetrisClass ui;
+
+private:
+  //³õÊ¼»¯´°¿Ú
+  void InitWindow();
 };

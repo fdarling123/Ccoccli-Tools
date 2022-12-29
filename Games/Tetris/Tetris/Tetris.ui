@@ -1,28 +1,61 @@
-<UI version="4.0" >
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
  <class>TetrisClass</class>
- <widget class="QMainWindow" name="TetrisClass" >
-  <property name="objectName" >
-   <string notr="true">TetrisClass</string>
-  </property>
-  <property name="geometry" >
+ <widget class="QMainWindow" name="TetrisClass">
+  <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>600</width>
-    <height>400</height>
+    <width>640</width>
+    <height>832</height>
    </rect>
   </property>
-  <property name="windowTitle" >
-   <string>Tetris</string>
-  </property>  <widget class="QMenuBar" name="menuBar" />
-  <widget class="QToolBar" name="mainToolBar" />
-  <widget class="QWidget" name="centralWidget" />
-  <widget class="QStatusBar" name="statusBar" />
+  <property name="minimumSize">
+   <size>
+    <width>640</width>
+    <height>832</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>640</width>
+    <height>832</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>俄罗斯方块</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="Tetris.qrc">
+    <normaloff>:/pic/res/pictures/ICON.png</normaloff>:/pic/res/pictures/ICON.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <property name="minimumSize">
+    <size>
+     <width>640</width>
+     <height>832</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>640</width>
+     <height>832</height>
+    </size>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="BG_Label">
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
  </widget>
- <layoutDefault spacing="6" margin="11" />
- <pixmapfunction></pixmapfunction>
+ <layoutdefault spacing="6" margin="11"/>
  <resources>
-   <include location="Tetris.qrc"/>
+  <include location="Tetris.qrc"/>
  </resources>
  <connections/>
-</UI>
+</ui>

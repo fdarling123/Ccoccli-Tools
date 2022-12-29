@@ -1,4 +1,16 @@
 <RCC>
-    <qresource prefix="Tetris">
+    <qresource prefix="/pic">
+        <file>res/pictures/BAR.png</file>
+        <file>res/pictures/BG.jpg</file>
+        <file>res/pictures/BLOCK.png</file>
+        <file>res/pictures/ICON.png</file>
+        <file>res/pictures/L_LEFT.png</file>
+        <file>res/pictures/L_RIGHT.png</file>
+        <file>res/pictures/T.png</file>
+        <file>res/pictures/Z_LEFT.png</file>
+        <file>res/pictures/Z_RIGHT.png</file>
+    </qresource>
+    <qresource prefix="/audio">
+        <file>res/audio/BGM.mp3</file>
     </qresource>
 </RCC>
